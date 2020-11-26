@@ -1,0 +1,33 @@
+.input {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  border-color: inherit;
+  background-color: #ffffff;
+}
+
+.small {
+  width: 3rem;
+  height: 2rem;
+  font-size: 0.875rem;
+}
+
+.medium {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+
+.large {
+  width: 95%;
+  height: 3rem;
+  font-size: 1.25rem;
+}
+
+.label {
+  clear: both;
+  display: block;
+  margin-bottom: 1rem;
+}
