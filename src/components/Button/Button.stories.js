@@ -1,11 +1,9 @@
 import React from 'react'
 import Button from './Button'
-import Center from '../Center/Center'
 
 export default {
   title: 'form/Button', 
-  component: Button,
-  decorators: [story => <Center>{story()}</Center>]
+  component: Button
 }
 
 export const Primary = () => <Button variant='primary'>Primary</Button>
@@ -33,5 +31,3 @@ LongPrimaryA.args = {
   ...PrimaryA.args,
   children: 'Long Primary Args'
 }
-
-
